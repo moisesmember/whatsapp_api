@@ -12,9 +12,12 @@ client.on('ready', () => {
     console.log(`Client is ready!`);
 });
 
-// Listenning for messages
 client.on('message', message => {
-	console.log(message.body);
+    // console.log(message.body);     // Listenning for messages
+	if(message.body === '!ping') {    // Replying to messages
+        message.reply('pong');
+        //client.sendMessage(message.from, 'pong');  // send reply using the sendMessage
+	}
 });
 
 client.initialize();
