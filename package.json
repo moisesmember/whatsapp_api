@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp_api",
+  "version": "1.0.0",
+  "description": "aplicação node - api whatsapp",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesmember/whatsapp_api.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "api"
+  ],
+  "author": "Moisés Felipe dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisesmember/whatsapp_api/issues"
+  },
+  "homepage": "https://github.com/moisesmember/whatsapp_api#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.7.0"
+  }
+}
