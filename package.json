@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/moisesmember/whatsapp_api#readme",
   "dependencies": {
+    "nodemon": "^2.0.4",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.7.0"
   }
