@@ -1,5 +1,7 @@
 # Aplicação WhatsApp API
 
+``` npm install```
+
 <a href="https://waguide.pedroslopez.me/">Link do artigo API WhatsApp</a>
 
 <a href="https://chat-api.com/pt-br/whatsapp-bot-nodejs.html">Link alternativo</a>
