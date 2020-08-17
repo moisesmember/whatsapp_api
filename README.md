@@ -4,6 +4,8 @@
 
 <a href="https://waguide.pedroslopez.me/">Link do artigo API WhatsApp</a>
 
+<a href="https://github.com/pedroslopez/whatsapp-web.js.git">Repositório git Exemplo</a>
+
 <a href="https://chat-api.com/pt-br/whatsapp-bot-nodejs.html">Link alternativo</a>
 
 <a href="https://github.com/rgl/redis/downloads">Link Instalação do Redis</a>
