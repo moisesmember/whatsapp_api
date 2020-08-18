@@ -1,0 +1,18 @@
+{
+  "name": "mongo_whatsbot",
+  "version": "1.0.0",
+  "description": "conectará a base de dados da api do whatsapp bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "run": "node app"
+  },
+  "author": "Moisés Felipe dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4"
+  }
+}

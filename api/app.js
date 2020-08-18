@@ -5,10 +5,7 @@ const SendFile = require('./functions/sendFile');
 
 
 // Path where the session data will be stored
-const SESSION_FILE_PATH = './data/sessions/session'+Math.floor(Math.random() * 10000) + 1+'.json';
-
-
-
+const SESSION_FILE_PATH = './data/sessions/session.json';
 
 let sessionData; // Load the session data if it has been previously saved
 if( fs.existsSync(SESSION_FILE_PATH) ){
@@ -49,7 +46,10 @@ client.on('message', async message => {
        message.reply('pong');
 
        const filePath = './data/img/branco.jpg';  // Caminho do arquivo
+       SendFile.salveBanco(filePath);
+       console.log(SendFile.Get("http://localhost:8000/file/list"));
        client.sendMessage(message.from, SendFile.returnFileBase64(filePath));  // send reply using the sendMessage   
+       
    }
    else if(message.body === '!resendmedia' /* && message.hasQuitedMsg */){
        console.log("Não sei: "+message.hasQuitedMsg);
